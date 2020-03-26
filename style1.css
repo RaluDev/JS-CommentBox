@@ -1,0 +1,40 @@
+#userimg {
+    height: 13px;
+}
+
+#container {
+    border-style: groove;
+    border-color:  #d6deec;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 3px;   
+}
+
+#container > h3 {
+    display: inline;
+    padding-left: 3px;
+    
+}
+
+#commentBtn {
+    background-color: rgb(56, 147, 221);
+    border: none;
+    color: white;
+    padding: 5px;
+    margin-left: 10px;
+    width: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#btn {
+    width: 80px;
+    height: 20px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
