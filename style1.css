@@ -3,11 +3,12 @@
 }
 
 #container {
-    border-style: groove;
-    border-color:  #d6deec;
+    border-style: inset;
+    border-color: #f2f2f2;
     padding-left: 10px;
     padding-top: 10px;
     border-radius: 3px;   
+    width: 350px;
 }
 
 #container > h3 {
@@ -34,7 +35,8 @@
     border: none;
     color: white;
     border-radius: 3px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     cursor: pointer;
+    margin-left: 130px;
 }
 
