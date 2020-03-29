@@ -17,6 +17,7 @@ btn.addEventListener('click', function () {
         msg: input.value
     });
     displayComments(comments, document.body)
+    // document.getElementById('container').innerHTML = "";
 })
 
 
@@ -26,9 +27,9 @@ displayComments(comments, document.body)
 
 function displayComments(comments, containerNode) {
     console.log(comments);
-
+    
     input.value = "";
-
+    
 
 
     function addParagraph(text) {
@@ -104,8 +105,10 @@ function displayComments(comments, containerNode) {
         containerBox.appendChild(button);
 
         return containerBox;
+        
+        
     }
-
+    
 
     // parcurgere commentarii
     for (let idx = 0; idx < comments.length; idx++) {

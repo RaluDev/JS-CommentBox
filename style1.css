@@ -3,12 +3,13 @@
 }
 
 #container {
-    border-style: inset;
+    border-style: dotted;
     border-color: #f2f2f2;
     padding-left: 10px;
     padding-top: 10px;
     border-radius: 3px;   
     width: 350px;
+    
 }
 
 #container > h3 {
